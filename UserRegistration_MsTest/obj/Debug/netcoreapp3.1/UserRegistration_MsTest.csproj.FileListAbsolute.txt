@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\bin\Debug\netcoreapp3.1\UserRegistration_MsTest.exe
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\bin\Debug\netcoreapp3.1\UserRegistration_MsTest.deps.json
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\bin\Debug\netcoreapp3.1\UserRegistration_MsTest.runtimeconfig.json
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\bin\Debug\netcoreapp3.1\UserRegistration_MsTest.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\bin\Debug\netcoreapp3.1\UserRegistration_MsTest.dll
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\bin\Debug\netcoreapp3.1\UserRegistration_MsTest.pdb
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\obj\Debug\netcoreapp3.1\UserRegistration_MsTest.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\obj\Debug\netcoreapp3.1\UserRegistration_MsTest.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\obj\Debug\netcoreapp3.1\UserRegistration_MsTest.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\obj\Debug\netcoreapp3.1\UserRegistration_MsTest.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\obj\Debug\netcoreapp3.1\UserRegistration_MsTest.dll
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\obj\Debug\netcoreapp3.1\UserRegistration_MsTest.pdb
+C:\Users\ASUS\source\repos\UserRegistration_MsTest\UserRegistration_MsTest\obj\Debug\netcoreapp3.1\UserRegistration_MsTest.genruntimeconfig.cache
