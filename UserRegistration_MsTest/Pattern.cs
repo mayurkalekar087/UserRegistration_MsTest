@@ -13,6 +13,7 @@ namespace UserRegistration_MsTest
         public string MOBILENUMBER = "^[0-9]{2}[ ][1-9][0-9]{9}$";
         public string PASSWORDRULE1 = "^[a-zA-Z]{8,}$";
         public string PASSWORDRULE2 = "^[A-Z]+[a-zA-Z]{8,}$";
+        public string PASSWORDRULE3 = "(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+]).{8,}$";
 
         public bool ValidateFirstName(string input)
         {
@@ -37,6 +38,10 @@ namespace UserRegistration_MsTest
         public bool ValidatePasswordRule2(string input)
         {
             return Regex.IsMatch(input, PASSWORDRULE2);
+        }
+        public bool ValidatePasswordRule3(string input)
+        {
+            return Regex.IsMatch(input, PASSWORDRULE3);
         }
     }
 }
