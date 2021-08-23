@@ -23,8 +23,18 @@ namespace MsTest
         [TestMethod]
         public void TestLastName()
         {
-            bool result1 = pattern.ValidateFirstName("Kalekar");
+            bool result1 = pattern.ValidateLastName("Kalekar");
             Assert.IsTrue(result1);
         }
+        /// <summary>
+        /// Tests the Email.
+        /// </summary>
+        [TestMethod]
+        public void TestEmail()
+        {
+            bool result2 = pattern.ValidateEmail("mayurkalekar550@gmail.com");
+            Assert.IsTrue(result2);
+        }
+
     }
 }

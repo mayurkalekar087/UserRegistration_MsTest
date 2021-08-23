@@ -10,7 +10,8 @@ namespace UserRegistration_MsTest
 
             Pattern pattern = new Pattern();
             bool result = pattern.ValidateFirstName("Mayur");
-            bool result1 = pattern.ValidateFirstName("Kalekar");
+            bool result1 = pattern.ValidateLastName("Kalekar");
+            bool result2 = pattern.ValidateEmail("mayurkalekar550@gmail.com");
 
             try
             {
@@ -22,7 +23,10 @@ namespace UserRegistration_MsTest
                 {
                     throw new Exception("Input string is not in correct format");
                 }
-
+                if (result2 != true)
+                {
+                    throw new Exception("Input string is not in correct format");
+                }
             }
             catch (Exception e)
             {
