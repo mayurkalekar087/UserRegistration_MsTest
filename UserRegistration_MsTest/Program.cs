@@ -10,6 +10,7 @@ namespace UserRegistration_MsTest
 
             Pattern pattern = new Pattern();
             bool result = pattern.ValidateFirstName("Mayur");
+            bool result1 = pattern.ValidateFirstName("Kalekar");
 
             try
             {
@@ -17,6 +18,11 @@ namespace UserRegistration_MsTest
                 {
                     throw new Exception("Input string is not in correct format");
                 }
+                if (result1 != true)
+                {
+                    throw new Exception("Input string is not in correct format");
+                }
+
             }
             catch (Exception e)
             {
