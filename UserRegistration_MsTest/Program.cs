@@ -11,12 +11,13 @@ namespace UserRegistration_MsTest
             Pattern pattern = new Pattern();
             bool result = pattern.ValidateFirstName("Mayur");
             bool result1 = pattern.ValidateLastName("Kalekar");
-            bool result2 = pattern.ValidateEmail("mayurkalekar550@gmail.com");
+            bool result2 = pattern.ValidateEmail("mayur.kalekar550@gmail.com");
             bool result3 = pattern.ValidateMobileNumber("91 7219451845");
             bool result4 = pattern.ValidatePasswordRule1("mayurkalekar");
             bool result5 = pattern.ValidatePasswordRule1("Mayurkalekar");
             bool result6 = pattern.ValidatePasswordRule1("Mayur@123");
-            bool result7 = pattern.ValidatePasswordRule1("Mayur@#123");
+            bool result7 = pattern.ValidatePasswordRule1("Mayur@123");
+
             try
             {
                 if (result != true)

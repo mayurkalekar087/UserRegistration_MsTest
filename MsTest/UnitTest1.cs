@@ -32,7 +32,7 @@ namespace MsTest
         [TestMethod]
         public void TestEmail()
         {
-            bool result2 = pattern.ValidateEmail("mayurkalekar550@gmail.com");
+            bool result2 = pattern.ValidateEmail("mayur.kalekar550@gmail.com");
             Assert.IsTrue(result2);
         }
         /// <summary>
@@ -77,6 +77,5 @@ namespace MsTest
             bool result7 = pattern.ValidatePasswordRule4("Mayur@#123");
             Assert.IsTrue(result7);
         }
-
     }
 }
