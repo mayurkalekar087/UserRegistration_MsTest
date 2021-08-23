@@ -50,8 +50,14 @@ namespace MsTest
         [TestMethod]
         public void TestpasswordRule1()
         {
-            bool result3 = pattern.ValidatePasswordRule1("mayurkalekar");
-            Assert.IsTrue(result3);
+            bool result4 = pattern.ValidatePasswordRule1("mayurkalekar");
+            Assert.IsTrue(result4);
+        }
+        [TestMethod]
+        public void TestpasswordRule2()
+        {
+            bool result5 = pattern.ValidatePasswordRule1("Mayurkalekar");
+            Assert.IsTrue(result5);
         }
 
     }
