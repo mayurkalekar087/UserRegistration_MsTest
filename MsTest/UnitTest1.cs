@@ -59,12 +59,23 @@ namespace MsTest
             bool result5 = pattern.ValidatePasswordRule2("Mayurkalekar");
             Assert.IsTrue(result5);
         }
-
+        /// <summary>
+        /// Testpasswords the rule3.
+        /// </summary>
         [TestMethod]
         public void TestpasswordRule3()
         {
             bool result6 = pattern.ValidatePasswordRule3("Mayur@123");
             Assert.IsTrue(result6);
+        }
+        /// <summary>
+        /// Testpasswords the rule4.
+        /// </summary>
+        [TestMethod]
+        public void TestpasswordRule4()
+        {
+            bool result7 = pattern.ValidatePasswordRule4("Mayur@#123");
+            Assert.IsTrue(result7);
         }
 
     }

@@ -14,7 +14,7 @@ namespace UserRegistration_MsTest
         public string PASSWORDRULE1 = "^[a-zA-Z]{8,}$";
         public string PASSWORDRULE2 = "^[A-Z]+[a-zA-Z]{8,}$";
         public string PASSWORDRULE3 = "(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+]).{8,}$";
-
+        public string PASSWORDRULE4 = "(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+]).{8,}$";
         public bool ValidateFirstName(string input)
         {
             return Regex.IsMatch(input, FIRSTNAME);
@@ -42,6 +42,10 @@ namespace UserRegistration_MsTest
         public bool ValidatePasswordRule3(string input)
         {
             return Regex.IsMatch(input, PASSWORDRULE3);
+        }
+        public bool ValidatePasswordRule4(string input)
+        {
+            return Regex.IsMatch(input, PASSWORDRULE4);
         }
     }
 }
