@@ -35,6 +35,15 @@ namespace MsTest
             bool result2 = pattern.ValidateEmail("mayurkalekar550@gmail.com");
             Assert.IsTrue(result2);
         }
+        /// <summary>
+        /// Tests the mobile nimber.
+        /// </summary>
+        [TestMethod]
+        public void TestMobileNumber()
+        {
+            bool result3 = pattern.ValidateMobileNumber("91 7219451845");
+            Assert.IsTrue(result3);
+        }
 
     }
 }
