@@ -44,6 +44,15 @@ namespace MsTest
             bool result3 = pattern.ValidateMobileNumber("91 7219451845");
             Assert.IsTrue(result3);
         }
+        /// <summary>
+        /// Test passwords the rule1.
+        /// </summary>
+        [TestMethod]
+        public void TestpasswordRule1()
+        {
+            bool result3 = pattern.ValidatePasswordRule1("mayurkalekar");
+            Assert.IsTrue(result3);
+        }
 
     }
 }

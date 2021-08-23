@@ -13,6 +13,7 @@ namespace UserRegistration_MsTest
             bool result1 = pattern.ValidateLastName("Kalekar");
             bool result2 = pattern.ValidateEmail("mayurkalekar550@gmail.com");
             bool result3 = pattern.ValidateMobileNumber("91 7219451845");
+            bool result4 = pattern.ValidatePasswordRule1("mayurkalekar");
             try
             {
                 if (result != true)
@@ -28,6 +29,10 @@ namespace UserRegistration_MsTest
                     throw new Exception("Input string is not in correct format");
                 }
                 if (result3 != true)
+                {
+                    throw new Exception("Input string is not in correct format");
+                }
+                if (result4 != true)
                 {
                     throw new Exception("Input string is not in correct format");
                 }
